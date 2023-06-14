@@ -1,0 +1,374 @@
+*  { margin: 0;
+  padding: 0;
+}
+
+ /* NAV-BAR */
+.nav-bar {background-color: rgb(12, 12, 26);
+color: white;
+overflow: hidden;
+display: flex;
+align-items: center;
+flex-direction: row;
+align-items: center;
+border-bottom: 0.5px solid white;
+justify-content: space-around;
+padding: 10px;
+}
+
+.nav-bar ul {display: flex;
+  flex-direction: row;
+  
+  align-items: center;}
+
+.nav-bar h1 {font-family: cursive;}
+
+
+
+/* logo */
+
+.logo {margin-left: 20px;}
+
+.logo :hover {background-color: rgb(53, 22, 22);}
+
+
+
+/* menu-bar */
+.menu-bar li a {padding: 20px;}
+.menu-bar li {display: flex; 
+flex-direction: row;}
+
+
+
+
+
+li a {text-decoration: none;
+color: white;}
+
+li {list-style: none;}
+
+.menu-bar li :hover {background-color: rgb(53, 22, 22);}
+
+/* icons */
+
+ .icons1 i {color: white;
+}
+
+.fa-solid {padding-right: 25px;}
+
+
+
+ @media (max-width: 1016px) {.nav-bar {  flex-wrap: wrap; justify-content: center;} 
+} 
+
+
+@media (max-width: 1016px) {.menu-bar ul   { flex-wrap: wrap;}}
+
+
+
+
+
+
+
+
+/* FIRST CONTAINER */
+
+
+/* first */
+#first { background-color: rgb(12, 12, 26);
+  padding-top: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+#first, h1 {color: white; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+ .first-paragraph {font-weight:lighter;
+padding-bottom: 60px;
+}
+
+
+/* intro */
+.intro {color: yellow;font-size: 13px;
+  font-family: cursive;
+  padding-bottom: 15px;
+}
+
+
+/* the image */
+
+.img1, img {height: 350px;
+  width: 350px;
+  
+}
+
+/* the button */
+ .btn1 {background-color: yellow;
+border-radius: 15px;
+padding:7px;
+color: white;
+font-size: 10px;
+margin-right: 15px;
+}
+
+
+.btn2 {background-color: rgb(12, 12, 26);
+  padding:7px;
+  color: white;
+  font-size: 10px;
+border: none;}
+
+.fa-regular {padding-left: 7px;}
+
+@media (max-width: 590px) {.img1 img { width: 70%;
+height: 70%;}}
+
+@media (max-width: 590px) {#first { font-size: 10px;}}
+
+@media (max-width: 572px) {#first { flex-wrap: wrap; justify-content: center;}}
+
+
+@media (max-width: 572px) {.img1 img { margin-top: 20px;}}
+  
+
+
+
+
+
+
+
+/* FEATURES */
+#features {padding-top: 20px;
+padding-left: 20px;
+padding-bottom: 50px;}
+
+ .intro2 {color: yellow;font-size: 13px;
+  font-family: cursive;
+  padding-bottom: 15px;}
+
+  .features-provided  h2{ font-weight: lighter;
+    margin-bottom: 40px;
+  }
+ #features i {color: black;
+ background-color: yellow;
+ border-radius: 50%;
+ padding: 10px;
+ height: 15px;
+ width: 15px;
+ margin-bottom: 15px;
+ }
+
+ #features h3 {font-weight: 700;
+ font-size: 18px;}
+
+ #features p {font-size: 10px;
+  font-weight: lighter;
+ }
+
+ .features-list {display: flex;
+ flex-direction: row;
+justify-content: space-between;
+
+ }
+ .features-list :hover {background-color: gold;
+ border-radius: 10px;
+ padding: 15px;
+ color: green;}
+
+ @media (max-width: 608px) {.features-list {flex-wrap: wrap;}}
+
+
+
+
+
+/* HISTORY-CONTAINER */
+
+#history-container { background-color: rgb(12, 12, 26);
+  
+  padding-top: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;}
+
+ .history-intro { color: yellow;font-size: 13px;
+  font-family: cursive;
+  padding-bottom: 15px;}
+
+  .history-head {color: white; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    padding-bottom: 10px;}
+
+    .history-paragraph { font-weight:lighter;
+      padding-bottom: 60px;
+    color: white;}
+
+    .btn3 {background-color: yellow;
+      border-radius: 15px;
+      padding:7px;
+      color: white;
+      font-size: 10px;
+      margin-right: 15px;}
+
+      .btn4 { background-color: rgb(12, 12, 26);
+        padding:7px;
+        color: white;
+        font-size: 10px;
+      border: none;}
+
+      .fa-regular {padding-right: 7px;}
+
+
+
+      /* PRODUCT-CONTAINER */
+      #product-container { background-color: white;
+  
+        padding-top: 45px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 20px;}
+
+        .product-intro {color: yellow;font-size: 13px;
+          font-family: cursive;
+          padding-bottom: 15px;}
+
+          .product-head { color: black; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 17px;
+            padding-bottom: 10px;}
+
+            .product-paragraph {  font-weight:lighter;
+              padding-bottom: 60px;
+            color: black;}
+
+            .product-icon {padding-top: 55px;
+            }
+
+            .product-icon i {font-size: 50px;
+            padding: 10px;
+          font-weight: lighter;}
+
+          .beautiful-flower img {height: 100%; width: 350px;
+          padding-left: 300px;}
+          .toothbrush img {height: 200px; width: 200px;}
+
+
+
+          /* SERVICES */
+
+          #service {background-color: rgb(12, 12, 26);
+            padding-top: 50px ; padding-bottom: 70px; overflow: hidden;
+          
+            color: white; 
+          border-bottom: solid white;}
+
+            #service h3 {margin-top: 17px; margin-bottom:  17px;}
+            #service p {font-weight: lighter; 
+            }
+            .service-img1 img { width: 400px; height: 250px; border-radius: 20px;}
+
+             .service-img2 img {width: 400px; height: 250px; border-radius: 20px;}
+
+          .service-head h2 { text-align: center;
+           
+            margin-bottom: 50px;
+          font-size: 25px;}
+
+
+          
+          .service-menu {display: flex; flex-direction: row; justify-content: space-around;
+            
+          align-items: center;}
+
+          .service-menu .fa-solid {padding-left: 150px;}
+
+          .service-btn {margin-top: 50px; 
+          float: right;}
+
+          .service-btn1 { background-color:  rgb(12, 12, 26) ;
+          padding: 7px;
+            border-radius: 20px;
+            border-color: white;
+            border-style: solid;}
+
+            
+
+            .service-btn2 { background-color: yellow;
+              border-radius: 20px;
+              padding:7px;
+              margin-left: 10px;
+              
+             }
+
+
+             /* DISCOUNT */
+
+             #discount { background-color: rgb(12, 12, 26);
+            display: flex;
+          flex-direction: row; justify-content: left;
+         color: white;  padding-top: 100px; border-bottom: solid white;}
+
+             .discount-intro {background-color: rgb(85, 85, 114);
+            padding-left: 250px; 
+            padding-top: 100px;
+            padding-right: 150px;
+          }
+
+            .discount-intro p { color: yellow;font-size: 13px;
+              font-family: cursive;
+              padding-bottom: 15px;}
+
+              .discount-intro h3 {  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 17px;
+                padding-bottom: 10px}
+
+                .sub-now {background-color: white; padding: 10px;
+                  display: flex;
+                flex-direction: row-reverse;}
+
+                .sub-now label {background-color: yellow; padding: 6px;}
+                .sub-now input {padding: 6px;
+                size: 10px; border-style: none;}
+
+
+
+
+                /* foot-bar */
+                #foot-bar {display: flex;
+                flex-direction: row;
+              justify-content: space-around; 
+              background-color: rgb(12, 12, 26);
+            color: white; padding-top: 26px;
+          border-bottom: solid white;}
+
+            .foot-icon  i{ color: black;
+            background-color: white;
+            border-radius: 50%;
+            padding: 5px;
+            height: 15px;
+            width: 15px;
+            margin-bottom: 15px;
+          margin-top: 10px;}
+
+          #foot-bar ul li {font-weight: lighter; font-size: small;
+          padding: 10px;
+        padding-left: 0;}
+
+
+        /* last */
+
+        #last {color: white;
+        text-align: center;
+        background-color: rgb(12, 12, 26);
+      padding-top: 20px;}
+
+          
+          
+
+
+
+
+
